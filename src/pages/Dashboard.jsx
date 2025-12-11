@@ -37,9 +37,16 @@ export default function Dashboard() {
       <div className="dashboard-content">
         <div className="chart-section">
           <h2>Analytics</h2>
-          <div className="chart-placeholder">
-            <p>Chart visualization would go here</p>
-          </div>
+          <Chart
+            title="Monthly Performance"
+            data={[
+              { label: 'Jan', value: 1200 },
+              { label: 'Feb', value: 1900 },
+              { label: 'Mar', value: 3000 },
+              { label: 'Apr', value: 2780 },
+              { label: 'May', value: 1890 },
+            ]}
+          />
         </div>
         <div className="activity-section">
           <h2>Recent Activity</h2>
