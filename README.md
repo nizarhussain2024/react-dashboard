@@ -380,3 +380,12 @@ docker run -p 80:80 react-dashboard
 - [ ] Unit and integration tests
 - [ ] Performance monitoring
 - [ ] PWA support
+
+## AI/NLP Capabilities
+
+This project includes AI and NLP utilities for:
+- Text processing and tokenization
+- Similarity calculation
+- Natural language understanding
+
+*Last updated: 2025-12-20*
